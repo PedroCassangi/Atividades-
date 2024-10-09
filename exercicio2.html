@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h3 {
+    color: #333;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+    </style>
+    <link rel="stylesheet" href="exercicio2.html"
+</head>
+<body>
+    <label> Nome: </label><br>
+    <input type=“text”>
+    <label> E-mail</label><br>
+    <input type="e-mail"
+    <label> Sexo: </label><br>
+    <input type=“radio” value=“Masculino” name=“sexo”> Masculino <br>
+    <input type=“radio” value=“Feminino” name=“sexo”> Feminino <br>
+    <form>
+        <h3>Feedback</h3>
+        <label>
+          <input type="radio" name="feedback" value="sugestao"> Sugestão
+        </label><br>
+        <label>
+          <input type="radio" name="feedback" value="elogio"> Elogio    
+        </label><br>
+        <label>
+          <input type="radio" name="feedback" value="reclamacao"> Reclamação
+        </label><br><br>
+        <label for="comentario">Comentário:</label><br>
+        <textarea id="comentario" name="comentario" rows="4" cols="50"></textarea><br><br>
+      </form>
+     <label>
+    <input type="checkbox" name="autorizo"> Autorizo a publicação do meu feedback
+    </label><br><br>
+  
+    <input type="submit" value="Enviar">
+    </form>
+
+
+</body>
+</html>
